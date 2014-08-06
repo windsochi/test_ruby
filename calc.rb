@@ -10,4 +10,8 @@ puts '\'Отлично!\''
 
 puts 'Ваше имя?'
 name = gets.chomp
-puts 'Вас зовут ' + name + '?. Вот и хорошо.'
+puts 'Ваша фамилия?'
+fam = gets.chomp
+puts 'Ваше отчество?'
+ot = gets.chomp
+puts 'Вас зовут ' + name + ' ' + ot + ' ' + fam
