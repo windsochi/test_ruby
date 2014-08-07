@@ -8,10 +8,12 @@ puts 'Hello' + ' ' + 'world!'
 puts '5'.to_i * 5
 puts '\'Отлично!\''
 
-puts 'Ваше имя?'
-name = gets.chomp
 puts 'Ваша фамилия?'
-fam = gets.chomp
+fam = gets
+puts 'Ваше имя?'
+name = gets
 puts 'Ваше отчество?'
-ot = gets.chomp
+ot = gets
 puts 'Вас зовут ' + name + ' ' + ot + ' ' + fam
+l = fam.length + name.length + ot.length
+puts 'В вашем Ф.И.О. ' + l + ' буковок.'
